@@ -1,0 +1,20 @@
+
+create database pi5; use pi5;
+
+create table cliente( nome varchar(50) not null, sobrenome varchar(100) not null, cep varchar(15), rua varchar(70), numero varchar(6), estado varchar(25), cidade varchar(30), cpf varchar(15) not null primary key, telefone varchar(15) );
+
+create table carro( cliente_cpf varchar(15) not null, marca varchar(40), modelo varchar(50), ano varchar(10), combustivel varchar(40), cambio varchar(30), placa varchar(15) not null primary key, carroceria varchar(40), cor varchar(50),
+
+foreign key (cliente_cpf) references cliente(cpf)
+
+);
+
+create table defeito( id int not null auto_increment primary key, carro_placa varchar(15) not null, entrada date, descricao varchar(200), status varchar(10), saida date,
+
+foreign key (carro_placa) references carro(placa)
+
+);
+
+create table usuario( id int not null auto_increment primary key, login varchar(150), senha varchar(150), tipo varchar(50)
+
+);
