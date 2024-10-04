@@ -7,7 +7,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
+<<<<<<< HEAD
 import static model.CarroDAO.verificarPlaca;
+=======
+
+>>>>>>> 5d9527a (update 1.0.1)
 
 public class ClienteDAO {
     

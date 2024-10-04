@@ -2,11 +2,15 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/C:/Users/wesle/OneDrive/Área%20de%20Trabalho/PI_5/src/model/CarroDAO.java</file>
             <file>file:/C:/Users/wesle/OneDrive/Área%20de%20Trabalho/PI_5/src/view/Listar_Up_Cad.java</file>
             <file>file:/C:/Users/wesle/OneDrive/Área%20de%20Trabalho/PI_5/src/view/Registrar_Defeito.java</file>
             <file>file:/C:/Users/wesle/OneDrive/Área%20de%20Trabalho/PI_5/src/view/Atualizar_Cadastro.java</file>
         </group>
+=======
+        <group/>
+>>>>>>> 5d9527a (update 1.0.1)
     </open-files>
 </project-private>

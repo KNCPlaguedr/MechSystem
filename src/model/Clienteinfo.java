@@ -3,7 +3,11 @@ package model;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+<<<<<<< HEAD
 import javax.swing.JOptionPane;
+=======
+
+>>>>>>> 5d9527a (update 1.0.1)
 
 public class Clienteinfo {
     

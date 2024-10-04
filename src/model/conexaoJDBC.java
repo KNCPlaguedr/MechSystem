@@ -17,7 +17,11 @@ public class conexaoJDBC {
     public void conectar() throws SQLException{
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
+<<<<<<< HEAD
             conexao = DriverManager.getConnection("jdbc:mysql://127.0.0.1/PI5","root","24071195");
+=======
+            conexao = DriverManager.getConnection("jdbc:mysql://127.0.0.1/pi5","root","24071195");
+>>>>>>> 5d9527a (update 1.0.1)
             
         }catch(ClassNotFoundException e){
             
