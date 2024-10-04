@@ -1,0 +1,65 @@
+insert into usuario values ("1","adm","adm123","Administrador");
+
+Alguns Inserts para fins de teste:
+
+insert into cliente values
+
+("Maria da Silva", "Santos", "11111-111", "Avenida Principal 20", "00", "Rio de Janeiro", "Niterói", "456.789.123-45", "(21)98765-4321"),
+
+("João Oliveira", "Pereira", "22222-222", "Rua das Flores 50", "00", "Belo Horizonte", "Contagem", "789.456.123-78", "(31)12345-6789"),
+
+("Ana Souza", "Ferreira", "33333-333", "Alameda dos Anjos 100", "00", "Brasília", "Taguatinga", "321.654.987-32", "(61)98765-4321"),
+
+("Pedro Santos", "Silveira", "44444-444", "Travessa das Palmeiras 30", "00", "Salvador", "Camaçari", "654.987.321-65", "(71)12345-6789"),
+
+("Carla Oliveira", "Almeida", "55555-555", "Rua das Oliveiras 80", "00", "Recife", "Olinda", "987.654.321-98", "(81)98765-4321"),
+
+("Antônio Pereira", "Silva", "66666-666", "Avenida dos Girassóis 40", "00", "Fortaleza", "Caucaia", "147.258.369-74", "(85)12345-6789"),
+
+("Mariana Vieira", "Santana", "77777-777", "Praça das Rosas 70", "00", "Porto Alegre", "Canoas", "369.258.147-96", "(51)98765-4321"),
+
+("Rafaela Lima", "Fernandes", "88888-888", "Estrada das Águas 60", "00", "Curitiba", "São José dos Pinhais", "258.147.369-58", "(41)12345-6789"),
+
+("Gustavo Oliveira", "Costa", "99999-999", "Rodovia dos Ventos 90", "00", "Manaus", "Itacoatiara", "147.369.258-41", "(92)98765-4321"),
+
+("Fernando Santos", "Cavalcante", "12345-678", "Avenida das Estrelas 110", "00", "Belém", "Ananindeua", "369.147.258-14", "(91)12345-6789");
+
+insert into carro values ("456.789.123-45", "Toyota", "Corolla", "2013/2014", "Flex", "Automático", "ABC-1234", "Sedã", "Prata"),
+
+("789.456.123-78", "Honda", "Civic", "2015/2016", "Flex", "Automático", "DEF-5678", "Sedã", "Preto"),
+
+("321.654.987-32", "Volkswagen", "Gol", "2017/2018", "Flex", "Manual", "GHI-9012", "Hatch", "Azul"),
+
+("654.987.321-65", "Ford", "Ka", "2019/2020", "Flex", "Manual", "JKL-3456", "Hatch", "Vermelho"),
+
+("987.654.321-98", "Chevrolet", "Onix", "2020/2021", "Flex", "Automático", "MNO-7890", "Hatch", "Branco"),
+
+("147.258.369-74", "Hyundai", "HB20", "2018/2019", "Flex", "Automático", "PQR-1234", "Hatch", "Prata"),
+
+("369.258.147-96", "Renault", "Sandero", "2016/2017", "Flex", "Manual", "STU-5678", "Hatch", "Cinza"),
+
+("258.147.369-58", "Fiat", "Uno", "2014/2015", "Flex", "Manual", "VWX-9012", "Hatch", "Amarelo"),
+
+("147.369.258-41", "Nissan", "March", "2017/2018", "Flex", "Manual", "YZA-3456", "Hatch", "Verde"),
+
+("369.147.258-14", "Jeep", "Renegade", "2021/2022", "Flex", "Automático", "BCD-6789", "SUV", "Azul");
+
+insert into defeito values (1, "ABC-1234", "2024-03-13", "Bomba de óleo", "Não", null),
+
+(2, "DEF-5678", "2024-03-13", "Disco de freio", "Sim", "2024-03-13"),
+
+(3, "GHI-9012", "2024-03-14", "Problema na suspensão", "Sim", "2024-03-14"),
+
+(4, "JKL-3456", "2024-03-14", "Problema no motor", "Sim", "2024-03-14"),
+
+(5, "MNO-7890", "2024-03-15", "Problema na transmissão", "Sim", "2024-03-15"),
+
+(6, "PQR-1234", "2024-03-15", "Problema elétrico", "Não", null),
+
+(7, "STU-5678", "2024-03-16", "Pneu furado", "Não", null),
+
+(8, "VWX-9012", "2024-03-16", "Problema no ar condicionado", "Sim", "2024-03-16"),
+
+(9, "YZA-3456", "2024-03-17", "Farol queimado", "Não", null),
+
+(10, "BCD-6789", "2024-03-17", "Problema na direção hidráulica", "Sim", "2024-03-17");
