@@ -1,4 +1,6 @@
-📊 Status do Projeto: V 1.0 Finalizada
+📊 Status do Projeto: V 1.0 Finalizada (menos front-end)
+
+**Projeto está na Branch Master**
 
 🔧 Tecnologias Utilizadas:
 
@@ -16,7 +18,7 @@ MySQL
 
 Gerenciamento de Histórico de Reparos: Armazena e organiza informações detalhadas sobre os reparos e manutenções realizados em cada veículo.
 
-Cadastro e Controle de Clientes e Veículos: Permite o registro de clientes e seus respectivos veículos, facilitando a consulta e gestão.
+Cadastro e Controle de Clientes e Veículos: Permite o registro de clientes e seus respectivos veículos, facilitando a consulta e gestão por meio de um CRUD.
 
 Interface Gráfica Intuitiva: Desenvolvida em Java Swing, proporcionando uma experiência de uso amigável.
 
