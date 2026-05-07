@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="33" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="76" max="32767" attributes="0"/>
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="78" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="voltarBtn" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="marcaCb" alignment="0" min="-2" pref="119" max="-2" attributes="0"/>
+                                                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="modelTxt" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+                                                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="placaTxt" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="anoCb" alignment="0" max="32767" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace pref="18" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="combCb" alignment="0" min="-2" pref="119" max="-2" attributes="0"/>
+                                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                          <Component id="caixaCb" min="-2" pref="119" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                          <Component id="cambCb" min="-2" pref="106" max="-2" attributes="0"/>
+                                          <Component id="corCb" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="cadBtn" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jPanel4" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="voltarBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="modelTxt" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Component id="marcaCb" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Component id="anoCb" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="placaTxt" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Component id="combCb" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Component id="cambCb" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="caixaCb" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Component id="corCb" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="cadBtn" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="357" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="339" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Novo ve&#xed;culo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="voltarBtn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Voltar"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="voltarBtnActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Marca"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Modelo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ano Fabrica&#xe7;&#xe3;o"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="modelTxt">
+            </Component>
+            <Component class="javax.swing.JComboBox" name="marcaCb">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="49">
+                    <StringItem index="0" value="Aston Martin"/>
+                    <StringItem index="1" value="Audi"/>
+                    <StringItem index="2" value="Bentley"/>
+                    <StringItem index="3" value="BMW"/>
+                    <StringItem index="4" value="Bugatti"/>
+                    <StringItem index="5" value="BYD"/>
+                    <StringItem index="6" value="Cadillac"/>
+                    <StringItem index="7" value="Chery"/>
+                    <StringItem index="8" value="Chevrolet"/>
+                    <StringItem index="9" value="Chrysler"/>
+                    <StringItem index="10" value="Citro&#xeb;n"/>
+                    <StringItem index="11" value="Dodge"/>
+                    <StringItem index="12" value="Fiat"/>
+                    <StringItem index="13" value="Ferrari"/>
+                    <StringItem index="14" value="Ford"/>
+                    <StringItem index="15" value="GMC"/>
+                    <StringItem index="16" value="Honda"/>
+                    <StringItem index="17" value="Hyundai"/>
+                    <StringItem index="18" value="Infiniti"/>
+                    <StringItem index="19" value="Iveco"/>
+                    <StringItem index="20" value="Jaguar"/>
+                    <StringItem index="21" value="JAC Motors"/>
+                    <StringItem index="22" value="Jeep"/>
+                    <StringItem index="23" value="Kia"/>
+                    <StringItem index="24" value="Land Rover"/>
+                    <StringItem index="25" value="Lexus"/>
+                    <StringItem index="26" value="Lifan"/>
+                    <StringItem index="27" value="Maserati"/>
+                    <StringItem index="28" value="McLaren"/>
+                    <StringItem index="29" value="Mercedes-Benz"/>
+                    <StringItem index="30" value="Mini"/>
+                    <StringItem index="31" value="Mitsubishi"/>
+                    <StringItem index="32" value="Nissan"/>
+                    <StringItem index="33" value="Peugeot"/>
+                    <StringItem index="34" value="Porsche"/>
+                    <StringItem index="35" value="RAM"/>
+                    <StringItem index="36" value="Renault"/>
+                    <StringItem index="37" value="Rolls-Royce"/>
+                    <StringItem index="38" value="Smart"/>
+                    <StringItem index="39" value="SsangYong"/>
+                    <StringItem index="40" value="Subaru"/>
+                    <StringItem index="41" value="Suzuki"/>
+                    <StringItem index="42" value="Tesla"/>
+                    <StringItem index="43" value="Toyota"/>
+                    <StringItem index="44" value="Troller"/>
+                    <StringItem index="45" value="Volkswagen"/>
+                    <StringItem index="46" value="Volvo"/>
+                    <StringItem index="47" value="Wuling"/>
+                    <StringItem index="48" value="Zotye"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="anoCb">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="149">
+                    <StringItem index="0" value="2024/2024"/>
+                    <StringItem index="1" value="2023/2024"/>
+                    <StringItem index="2" value="2023/2023"/>
+                    <StringItem index="3" value="2022/2023"/>
+                    <StringItem index="4" value="2022/2022"/>
+                    <StringItem index="5" value="2021/2022"/>
+                    <StringItem index="6" value="2021/2021"/>
+                    <StringItem index="7" value="2020/2021"/>
+                    <StringItem index="8" value="2020/2020"/>
+                    <StringItem index="9" value="2019/2020"/>
+                    <StringItem index="10" value="2019/2019"/>
+                    <StringItem index="11" value="2018/2019"/>
+                    <StringItem index="12" value="2018/2018"/>
+                    <StringItem index="13" value="2017/2018"/>
+                    <StringItem index="14" value="2017/2017"/>
+                    <StringItem index="15" value="2016/2017"/>
+                    <StringItem index="16" value="2016/2016"/>
+                    <StringItem index="17" value="2015/2016"/>
+                    <StringItem index="18" value="2015/2015"/>
+                    <StringItem index="19" value="2014/2015"/>
+                    <StringItem index="20" value="2014/2014"/>
+                    <StringItem index="21" value="2013/2014"/>
+                    <StringItem index="22" value="2013/2013"/>
+                    <StringItem index="23" value="2012/2013"/>
+                    <StringItem index="24" value="2012/2012"/>
+                    <StringItem index="25" value="2011/2012"/>
+                    <StringItem index="26" value="2011/2011"/>
+                    <StringItem index="27" value="2010/2011"/>
+                    <StringItem index="28" value="2010/2010"/>
+                    <StringItem index="29" value="2009/2010"/>
+                    <StringItem index="30" value="2009/2009"/>
+                    <StringItem index="31" value="2008/2009"/>
+                    <StringItem index="32" value="2008/2008"/>
+                    <StringItem index="33" value="2007/2008"/>
+                    <StringItem index="34" value="2007/2007"/>
+                    <StringItem index="35" value="2006/2007"/>
+                    <StringItem index="36" value="2006/2006"/>
+                    <StringItem index="37" value="2005/2006"/>
+                    <StringItem index="38" value="2005/2005"/>
+                    <StringItem index="39" value="2004/2005"/>
+                    <StringItem index="40" value="2004/2004"/>
+                    <StringItem index="41" value="2003/2004"/>
+                    <StringItem index="42" value="2003/2003"/>
+                    <StringItem index="43" value="2002/2003"/>
+                    <StringItem index="44" value="2002/2002"/>
+                    <StringItem index="45" value="2001/2002"/>
+                    <StringItem index="46" value="2001/2001"/>
+                    <StringItem index="47" value="2000/2001"/>
+                    <StringItem index="48" value="2000/2000"/>
+                    <StringItem index="49" value="1999/2000"/>
+                    <StringItem index="50" value="1999/1999"/>
+                    <StringItem index="51" value="1998/1999"/>
+                    <StringItem index="52" value="1998/1998"/>
+                    <StringItem index="53" value="1997/1998"/>
+                    <StringItem index="54" value="1997/1997"/>
+                    <StringItem index="55" value="1996/1997"/>
+                    <StringItem index="56" value="1996/1996"/>
+                    <StringItem index="57" value="1995/1996"/>
+                    <StringItem index="58" value="1995/1995"/>
+                    <StringItem index="59" value="1994/1995"/>
+                    <StringItem index="60" value="1994/1994"/>
+                    <StringItem index="61" value="1993/1994"/>
+                    <StringItem index="62" value="1993/1993"/>
+                    <StringItem index="63" value="1992/1993"/>
+                    <StringItem index="64" value="1992/1992"/>
+                    <StringItem index="65" value="1991/1992"/>
+                    <StringItem index="66" value="1991/1991"/>
+                    <StringItem index="67" value="1990/1991"/>
+                    <StringItem index="68" value="1990/1990"/>
+                    <StringItem index="69" value="1989/1990"/>
+                    <StringItem index="70" value="1989/1989"/>
+                    <StringItem index="71" value="1988/1989"/>
+                    <StringItem index="72" value="1988/1988"/>
+                    <StringItem index="73" value="1987/1988"/>
+                    <StringItem index="74" value="1987/1987"/>
+                    <StringItem index="75" value="1986/1987"/>
+                    <StringItem index="76" value="1986/1986"/>
+                    <StringItem index="77" value="1985/1986"/>
+                    <StringItem index="78" value="1985/1985"/>
+                    <StringItem index="79" value="1984/1985"/>
+                    <StringItem index="80" value="1984/1984"/>
+                    <StringItem index="81" value="1983/1984"/>
+                    <StringItem index="82" value="1983/1983"/>
+                    <StringItem index="83" value="1982/1983"/>
+                    <StringItem index="84" value="1982/1982"/>
+                    <StringItem index="85" value="1981/1982"/>
+                    <StringItem index="86" value="1981/1981"/>
+                    <StringItem index="87" value="1980/1981"/>
+                    <StringItem index="88" value="1980/1980"/>
+                    <StringItem index="89" value="1979/1980"/>
+                    <StringItem index="90" value="1979/1979"/>
+                    <StringItem index="91" value="1978/1979"/>
+                    <StringItem index="92" value="1978/1978"/>
+                    <StringItem index="93" value="1977/1978"/>
+                    <StringItem index="94" value="1977/1977"/>
+                    <StringItem index="95" value="1976/1977"/>
+                    <StringItem index="96" value="1976/1976"/>
+                    <StringItem index="97" value="1975/1976"/>
+                    <StringItem index="98" value="1975/1975"/>
+                    <StringItem index="99" value="1974/1975"/>
+                    <StringItem index="100" value="1974/1974"/>
+                    <StringItem index="101" value="1973/1974"/>
+                    <StringItem index="102" value="1973/1973"/>
+                    <StringItem index="103" value="1972/1973"/>
+                    <StringItem index="104" value="1972/1972"/>
+                    <StringItem index="105" value="1971/1972"/>
+                    <StringItem index="106" value="1971/1971"/>
+                    <StringItem index="107" value="1970/1971"/>
+                    <StringItem index="108" value="1970/1970"/>
+                    <StringItem index="109" value="1969/1970"/>
+                    <StringItem index="110" value="1969/1969"/>
+                    <StringItem index="111" value="1968/1969"/>
+                    <StringItem index="112" value="1968/1968"/>
+                    <StringItem index="113" value="1967/1968"/>
+                    <StringItem index="114" value="1967/1967"/>
+                    <StringItem index="115" value="1966/1967"/>
+                    <StringItem index="116" value="1966/1966"/>
+                    <StringItem index="117" value="1965/1966"/>
+                    <StringItem index="118" value="1965/1965"/>
+                    <StringItem index="119" value="1964/1965"/>
+                    <StringItem index="120" value="1964/1964"/>
+                    <StringItem index="121" value="1963/1964"/>
+                    <StringItem index="122" value="1963/1963"/>
+                    <StringItem index="123" value="1962/1963"/>
+                    <StringItem index="124" value="1962/1962"/>
+                    <StringItem index="125" value="1961/1962"/>
+                    <StringItem index="126" value="1961/1961"/>
+                    <StringItem index="127" value="1960/1961"/>
+                    <StringItem index="128" value="1960/1960"/>
+                    <StringItem index="129" value="1959/1960"/>
+                    <StringItem index="130" value="1959/1959"/>
+                    <StringItem index="131" value="1958/1959"/>
+                    <StringItem index="132" value="1958/1958"/>
+                    <StringItem index="133" value="1957/1958"/>
+                    <StringItem index="134" value="1957/1957"/>
+                    <StringItem index="135" value="1956/1957"/>
+                    <StringItem index="136" value="1956/1956"/>
+                    <StringItem index="137" value="1955/1956"/>
+                    <StringItem index="138" value="1955/1955"/>
+                    <StringItem index="139" value="1954/1955"/>
+                    <StringItem index="140" value="1954/1954"/>
+                    <StringItem index="141" value="1953/1954"/>
+                    <StringItem index="142" value="1953/1953"/>
+                    <StringItem index="143" value="1952/1953"/>
+                    <StringItem index="144" value="1952/1952"/>
+                    <StringItem index="145" value="1951/1952"/>
+                    <StringItem index="146" value="1951/1951"/>
+                    <StringItem index="147" value="1950/1951"/>
+                    <StringItem index="148" value="1950/1950"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Combust&#xed;vel"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Placa"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="placaTxt">
+              <Events>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="placaTxtFocusLost"/>
+                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="placaTxtKeyPressed"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="placaTxtKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="combCb">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="7">
+                    <StringItem index="0" value="Gasolina"/>
+                    <StringItem index="1" value="Diesel"/>
+                    <StringItem index="2" value="G&#xe1;s Natural"/>
+                    <StringItem index="3" value="Etanol"/>
+                    <StringItem index="4" value="Flex"/>
+                    <StringItem index="5" value="El&#xe9;trico"/>
+                    <StringItem index="6" value="H&#xed;brido"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="C&#xe2;mbio"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cambCb">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="Manual"/>
+                    <StringItem index="1" value="Autom&#xe1;tico"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Carroceria"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="caixaCb">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="9">
+                    <StringItem index="0" value="Sed&#xe3;"/>
+                    <StringItem index="1" value="Hatchback"/>
+                    <StringItem index="2" value="Perua/Wagon"/>
+                    <StringItem index="3" value="SUV"/>
+                    <StringItem index="4" value="Crossover"/>
+                    <StringItem index="5" value="Cup&#xea;"/>
+                    <StringItem index="6" value="Convers&#xed;vel"/>
+                    <StringItem index="7" value="Picape"/>
+                    <StringItem index="8" value="Sport"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="cadBtn">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cadastrar"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cadBtnActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="corCb">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="15">
+                    <StringItem index="0" value="Branco"/>
+                    <StringItem index="1" value="Prata"/>
+                    <StringItem index="2" value="Preto"/>
+                    <StringItem index="3" value="Cinza"/>
+                    <StringItem index="4" value="Azul marinho"/>
+                    <StringItem index="5" value="Vermelho"/>
+                    <StringItem index="6" value="Bege"/>
+                    <StringItem index="7" value="Verde escuro"/>
+                    <StringItem index="8" value="Azul claro"/>
+                    <StringItem index="9" value="Marrom"/>
+                    <StringItem index="10" value="Laranja"/>
+                    <StringItem index="11" value="Azul met&#xe1;lico"/>
+                    <StringItem index="12" value="Cinza met&#xe1;lico"/>
+                    <StringItem index="13" value="Verde met&#xe1;lico"/>
+                    <StringItem index="14" value="Vermelho met&#xe1;lico"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
