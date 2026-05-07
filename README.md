@@ -2,6 +2,13 @@
 
 **Projeto está na Branch Master**
 
+Conector MySQL está em Lib
+
+Ctrl+Shift+P
+"Java: Configure Classpath"
+"Libraries"
+Clique no + e seleciona o .jar do MySQL que está na pasta lib
+
 🔧 Tecnologias Utilizadas:
 
 Java
